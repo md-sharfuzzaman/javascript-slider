@@ -45,7 +45,7 @@ Variables
   --clr-black: #222;
   --ff-primary: 'Roboto', sans-serif;
   --ff-secondary: 'Open Sans', sans-serif;
-  --transition: all 0.3s linear;
+  --transition: all 0.3s ease-in-out;
   --spacing: 0.1rem;
   --radius: 0.25rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -260,7 +260,7 @@ h4{
   position: relative;
   height: 450px;
   overflow: hidden;
- /*  background: var(--clr-primary-7); */
+  /* background: var(--clr-primary-7); */
 }
 
 
